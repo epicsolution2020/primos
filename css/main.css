@@ -287,7 +287,13 @@ a:focus{
 #home-slider .item{
 	-webkit-background-size: cover;
 	background-size: cover;
+	min-height:100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-background-size: cover;
 }
+
 #home-slider .caption {
   position: absolute;
   top: 50%;
@@ -304,7 +310,7 @@ a:focus{
 #home-slider .caption-wide{margin-top: -204px;}
 #home-slider .caption .main-title {
   color: #fff;
-  font-size: 90px;
+  font-size:60px;
   font-weight: 700;
   margin-bottom: 20px;
 }
